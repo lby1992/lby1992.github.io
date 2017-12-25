@@ -26,15 +26,20 @@ li a {
     display: block;
     padding: 20px;
     text-decoration: none;
-    color: #666666;
     font-family: "Times New Roman", Times, serif;
     font-size: 28px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
 }
 /* Change the link color to #111 (black) on hover */
 li a:hover:not(.active) {
     background-color: #dddddd;
+    text-shadow: 2px 2px;
+    color: #666666;
+    text-shadow: none;
 }
 li a.active {
     color: white;
     background-color: #4CAF50;
+    text-shadow: none;
 }
